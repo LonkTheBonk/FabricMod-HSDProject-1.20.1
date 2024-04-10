@@ -2,6 +2,9 @@ package net.tofuu.hsdproject;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.tofuu.hsdproject.block.ModBlocks;
+import net.tofuu.hsdproject.item.ModItems;
+import net.tofuu.hsdproject.item.ModItemsGroup;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,10 +18,9 @@ public class HonorsSoftwareDevProject implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
+		ModItemsGroup.registerItemGroups();
 
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
