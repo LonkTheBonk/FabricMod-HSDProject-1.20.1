@@ -1,8 +1,6 @@
-# FabricMod-HSDProject-1.20.1
-
 <div align="center">(optional) Project photo</div>
-<h1 align="center">Project Name</h1>
-<p align="center"><strong>One-line description</strong>
+<h1 align="center">FabricMod 1.20.1</h1>
+<p align="center"><strong>A Minecraft mod made for fabric client focused on improvements to the building aspect of Minecraft.</strong>
 <br/>
 
 <h2>About</h2>
