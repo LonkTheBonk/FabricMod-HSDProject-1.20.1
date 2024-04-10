@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "honorssoftwaredevproject",
+	"version": "${version}",
+	"name": "HonorsSoftwareDevProject",
+	"description": "A Minecraft Mod focused on implementing building tools and new objects",
+	"authors": [
+		"Tofuu"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/honorssoftwaredevproject/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.tofuu.hsdproject.HonorsSoftwareDevProject"
+		],
+		"client": [
+			"net.tofuu.hsdproject.HonorsSoftwareDevProjectClient"
+		],
+		"fabric-datagen": [
+			"net.tofuu.hsdproject.HonorsSoftwareDevProjectDataGenerator"
+		]
+	},
+	"mixins": [
+		"honorssoftwaredevproject.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
