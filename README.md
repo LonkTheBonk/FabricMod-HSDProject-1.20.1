@@ -4,7 +4,7 @@
 <br/>
 
 <h2>About</h2>
-<strong>FILL THIS IN</strong><br/>
+<strong>This is a Minecraft mod which aims to add more options for builders in Minecraft. It includes custom blocks and tools which enhance the building experience. I built this project because I am a longtime enjoyer of Minecraft building. Unfortunately. however, there are many features that aren't in the game that would improve the experience for most players. </strong><br/>
 Answer these questions: What is your project? Why'd you build it?
 
 <h2>Goal and requirements</h2>
